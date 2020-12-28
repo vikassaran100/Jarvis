@@ -6,6 +6,13 @@
     <title>jarvis</title>
 </head>
 <body>
-    <script src="jarvis.py">jarvis</script>
+    <button id="vikas">click me</button>
+    <script>$(document).ready(function () {
+            $("#vikas").onclick(function () {
+                run(jarvis.py);
+            })
+
+        })</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>
